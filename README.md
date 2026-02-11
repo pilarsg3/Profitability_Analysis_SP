@@ -5,16 +5,16 @@ The entire profitability workflow is triggered by calling `run_profitability_ana
   - `gdx_unprocessed_path` 
   - `gdx_processed_path`
   - `prices_xlsx_path`
-  - plus an `output_dir where results will be saved
+  - plus an `output_dir` where results will be saved
 - Which sites to analyze and their lifetimes
-- Which commodities are traded, and optional `revenue_factors
+- Which commodities are traded, and optional `revenue_factors`
 - Model milestone years and how they map to actual years
 - The analysis horizon, defined by `end_year`
-- Discounting settings: `discount`, `discount_rate`, `base_year
+- Discounting settings: `discount`, `discount_rate`, `base_year`
 - Decommissioning assumption: `decom_rate (fraction of investment cost used as a proxy for decommissioning)
 
 Optional adjustments include:
-- selecting which reactor processes to include (`reactors`, `urn_processes)
+- selecting which reactor processes to include (`reactors`, `urn_processes`)
 - specifying the worksheet name in the prices Excel file (`sheet`)
 
 
