@@ -1,4 +1,4 @@
-The entire profitability workflow is triggered by calling `run_profitability_analysis(...)` in `main.py'`. This function runs the full pipeline: it loads the necessary data from the raw and processed GDX files, filters it to the reactor processes you want to analyze, and then uses the helper functions in `helpers.py` to build all revenue, cost, and cash‑flow results for each site.
+The entire profitability workflow is triggered by calling `run_profitability_analysis(...)` in `main.py`. This function runs the full pipeline: it loads the necessary data from the raw and processed GDX files, filters it to the reactor processes you want to analyze, and then uses the helper functions in `helpers.py` to build all revenue, cost, and cash‑flow results for each site.
 
 --- Required Inputs ---
 - Paths to three input files
