@@ -19,6 +19,7 @@ Optional adjustments include:
 
 
 --- What the pipeline does ---
+
 Once configured, the function:
 1. Builds yearly revenue and operating‑cost tables for each site  
 2. Extrapolates them to the chosen end year  
